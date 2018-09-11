@@ -15,6 +15,7 @@
 		046595002147D0B100266946 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 046594FF2147D0B100266946 /* main.m */; };
 		0465950A2147D0B200266946 /* SCJsonTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 046595092147D0B200266946 /* SCJsonTests.m */; };
 		046595152147D0B200266946 /* SCJsonUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 046595142147D0B200266946 /* SCJsonUITests.m */; };
+		046595242147D0CE00266946 /* NSDictionary+SC.m in Sources */ = {isa = PBXBuildFile; fileRef = 046595232147D0CE00266946 /* NSDictionary+SC.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,8 @@
 		046595102147D0B200266946 /* SCJsonUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SCJsonUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		046595142147D0B200266946 /* SCJsonUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SCJsonUITests.m; sourceTree = "<group>"; };
 		046595162147D0B200266946 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		046595222147D0CE00266946 /* NSDictionary+SC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDictionary+SC.h"; sourceTree = "<group>"; };
+		046595232147D0CE00266946 /* NSDictionary+SC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDictionary+SC.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,6 +104,8 @@
 		046594EF2147D0B000266946 /* SCJson */ = {
 			isa = PBXGroup;
 			children = (
+				046595222147D0CE00266946 /* NSDictionary+SC.h */,
+				046595232147D0CE00266946 /* NSDictionary+SC.m */,
 				046594F02147D0B000266946 /* AppDelegate.h */,
 				046594F12147D0B000266946 /* AppDelegate.m */,
 				046594F32147D0B000266946 /* ViewController.h */,
@@ -264,6 +269,7 @@
 			files = (
 				046594F52147D0B000266946 /* ViewController.m in Sources */,
 				046595002147D0B100266946 /* main.m in Sources */,
+				046595242147D0CE00266946 /* NSDictionary+SC.m in Sources */,
 				046594F22147D0B000266946 /* AppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -434,6 +440,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = WG29D9ZU6P;
 				INFOPLIST_FILE = SCJson/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -450,6 +457,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = WG29D9ZU6P;
 				INFOPLIST_FILE = SCJson/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
